@@ -15,4 +15,6 @@ def emotion_detector(text_to_analyse):
     joy = formatted_response['emotionPredictions'][0]['emotion']['joy']
     sadness = formatted_response['emotionPredictions'][0]['emotion']['sadness']
 
+
+
     return {'anger': anger, 'disgust': disgust, 'fear': fear, 'joy': joy, 'sadness': sadness} 
